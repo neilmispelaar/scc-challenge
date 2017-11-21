@@ -200,6 +200,8 @@
 
                 // Google reported a valid geocoded address
                 if (status == google.maps.GeocoderStatus.OK) {
+                    
+                    this.geolocationStatus = true;
 
                     console.log("Valid GeoCode = " + status);
                     
